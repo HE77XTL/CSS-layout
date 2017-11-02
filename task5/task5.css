@@ -1,0 +1,113 @@
+body {
+	background: #000;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 96px;
+}
+
+.layout {
+	border: 1px solid;
+	height: 348px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 20px;
+	font-family: arial;
+	margin: 20px;
+}
+.card {
+	height: 330px;
+	background: #fff;
+	display: flex;
+	flex-grow: 1;
+	padding: 10px 10px;
+	border-top: 1px solid #EEEEE0;
+	border-bottom: 1px solid #EEEEE0;
+
+
+}
+.left {
+	/*background: pink;*/
+	flex-grow: 3;
+	display: flex;
+	flex-direction: column;
+	padding-right: 20px;
+}
+.right {
+	width: 350px;
+	/*background: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.user {
+	display: flex;
+	height: 105px;
+	/*background: #FFDEAD;*/
+}
+.content {
+	height: 175px;
+	/*background: blue;*/
+	padding: 0 10px;
+}
+.footer {
+	height: 80px;
+	/*background: #fff;*/
+}
+.avatar {
+	/*background: red;*/
+	width: 160px;
+	display: flex;
+	align-items: center;
+}
+.name {
+	/*background: yellow;*/
+	width: 160px;
+	display: flex;
+	align-items: center;
+}
+.time {
+	/*background: green;*/
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	color: #708090;
+}
+.avatar>img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+}
+.right>img {
+    width: 320px;
+    border-radius: 7px;
+}
+p{
+	text-indent: 2em;
+	font-size: 20px;
+	line-height: 2em;
+	/*单行省略号*/
+	/*width: 90%;*/
+	/*white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;*/
+	  display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.footer>a {
+	text-decoration: none;
+	border: 1px solid red;
+	position: relative;
+	top: 15px;
+	padding: 8px;
+	font-size: 12px;
+	border-radius: 4px;
+	color: red;
+}
+
